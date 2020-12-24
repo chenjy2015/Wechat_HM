@@ -1,3 +1,4 @@
+
 export default {
     data: {
         title: 'World',
@@ -87,5 +88,7 @@ export default {
                     'src': '',
                     'type': 'divider',
                 },],
-    }
+
+    },
+
 }

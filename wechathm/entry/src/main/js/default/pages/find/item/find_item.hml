@@ -5,5 +5,9 @@
         <text class="name">
             {{name}}
         </text>
+        <div class="right_menu">
+            <image class="arrow" src="{{rightIcon}}"></image>
+        </div>
     </div>
+
 </div>

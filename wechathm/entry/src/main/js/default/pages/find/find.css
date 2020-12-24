@@ -8,9 +8,15 @@
     height: 100%;
     flex-direction: column;
 }
-.title {
-    font-size: 30px;
-    text-align: center;
-    width: 200px;
-    height: 100px;
+
+.list-style {
+    width: 100%;
+}
+
+.list-item {
+    width: 100%;
+}
+
+.find-item {
+    width: 100%;
 }

@@ -1,16 +1,9 @@
 <element src="../find/item/find_item.hml"></element>
-<!-- name: '',-->
-<!--        index: 0,-->
-<!--        src: '',-->
-<!--        type: '',-->
 <div class="container">
-    <text>
-        find item
-    </text>
-    <list style="width: 100%;">
-        <list-item for="{{items}}" style="width: 100%; height: 60px;">
-            <find_item style="width: 100%; height: 100%;" name="{{$item.name}}" index="{{$item.index}}"
-                    src="{{$item.src}}" type="{{$item.type}}"></find_item>
+    <list class="list-style">
+        <list-item class="list-item" for="{{items}}">
+            <find_item class="find-item" name="{{$item.name}}" index="{{$item.index}}" src="{{$item.src}}"
+                    type="{{$item.type}}" right-icon="/common/arrow-right.png"></find_item>
         </list-item>
     </list>
 </div>

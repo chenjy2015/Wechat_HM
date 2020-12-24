@@ -2,30 +2,30 @@
 <element name='comp' src='../content/content.hml'></element>
 <element src="../find/find.hml"></element>
 <div class="container">
-<!--    <tabs class="tabs" index="0" vertical="false" onchange="change">-->
-<!--        <tab-bar class="tab-bar" mode="fixed">-->
-<!--            <div class="tab-bar-item" for="{{tabList}}" onclick="tabItemClick({{$idx}})">-->
-<!--                <image class="tab-image" src="{{$item.src}}"></image>-->
-<!--                <text class="tab-text">{{$item.name}}-->
-<!--                </text>-->
-<!--            </div>-->
-<!--        </tab-bar>-->
-<!--        <tab-content class="tabcontent" scrollable="true">-->
-<!--            &lt;!&ndash;            <div class="tab-bar-item" for="{{tabList}}">&ndash;&gt;-->
-<!--            &lt;!&ndash;                <comp title="{{$item.name}}" show-object="{{isShow}}" @event-type1="textClicked"></comp>&ndash;&gt;-->
-<!--            &lt;!&ndash;            </div>&ndash;&gt;-->
-<!--            <div>-->
-<!--                <comp></comp>-->
-<!--            </div>-->
-<!--            <div>-->
-<!--                <comp></comp>-->
-<!--            </div>-->
-<!--            <div>-->
+    <tabs class="tabs" index="0" vertical="false" onchange="change">
+        <tab-bar class="tab-bar" mode="fixed">
+            <div class="tab-bar-item" for="{{tabList}}" onclick="tabItemClick({{$idx}})">
+                <image class="tab-image" src="{{$item.src}}"></image>
+                <text class="tab-text">{{$item.name}}
+                </text>
+            </div>
+        </tab-bar>
+        <tab-content class="tabcontent" scrollable="true">
+            <!--            <div class="tab-bar-item" for="{{tabList}}">-->
+            <!--                <comp title="{{$item.name}}" show-object="{{isShow}}" @event-type1="textClicked"></comp>-->
+            <!--            </div>-->
+            <div>
                 <find></find>
-<!--            </div>-->
-<!--            <div>-->
-<!--                <comp></comp>-->
-<!--            </div>-->
-<!--        </tab-content>-->
-<!--    </tabs>-->
+            </div>
+            <div>
+                <find></find>
+            </div>
+            <div>
+                <find></find>
+            </div>
+            <div>
+                <comp></comp>
+            </div>
+        </tab-content>
+    </tabs>
 </div>
