@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="divider" if="{{type == 'divider'}}"></div>
+    <div class="content" if="{{type == 'content'}}">
+        <image class="image" src="{{src}}"></image>
+        <text class="name">
+            {{name}}
+        </text>
+    </div>
+</div>
